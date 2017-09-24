@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "863661634742",
+    "firebase_url": "https://adimsayici.firebaseio.com",
+    "project_id": "adimsayici",
+    "storage_bucket": "adimsayici.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863661634742:android:acf1cabacbcc3494",
+        "android_client_info": {
+          "package_name": "com.example.android.adimsayici"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863661634742-f4iel6c2kkp1pub6q9l28a50642avue5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2x57KhK7tLwpLT9aHoJ0cZBu31MzxA6g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

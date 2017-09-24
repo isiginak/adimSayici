@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context="com.example.android.adimsayici.Anasayfa">
+
+    <TextView
+        android:id="@+id/adim"
+        android:background="@drawable/textstil"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="74dp"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="30sp"/>
+
+    <Chronometer
+        android:id="@+id/sayac"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/textstil"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/adim"
+        android:layout_marginEnd="58dp"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/basla"
+        android:background="@drawable/butonstil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BAŞLA"
+        android:textColor="#000"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/durdur"
+        android:textColor="#000"
+        android:background="@drawable/butonstil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="DURDUR"
+
+        android:layout_below="@+id/basla"
+        android:layout_alignStart="@+id/basla" />
+
+    <Button
+        android:id="@+id/kaydet"
+        android:background="@drawable/butonstil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_marginTop="26dp"
+        android:text="KAYDET"
+        android:layout_below="@+id/durdur"
+        android:layout_alignStart="@+id/durdur" />
+</RelativeLayout>
